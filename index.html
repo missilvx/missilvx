@@ -1,4 +1,3 @@
-
 <!DOCTYPE html>
 <html lang="it">
 <head>
@@ -15,13 +14,11 @@
 }
 body{background:var(--bg);color:var(--ink);font-family:var(--mono);font-size:14px;line-height:1.6;}
 a{color:inherit;text-decoration:none;}
-
 nav{position:sticky;top:0;z-index:100;background:var(--bg);border-bottom:1px solid var(--border);padding:0 2rem;display:flex;align-items:center;justify-content:space-between;height:52px;}
 .nav-logo{font-family:var(--serif);font-size:15px;font-weight:600;letter-spacing:-0.02em;}
 .nav-links{display:flex;gap:1.5rem;}
 .nav-links a{font-size:12px;color:var(--ink2);letter-spacing:0.05em;text-transform:uppercase;transition:color .2s;}
 .nav-links a:hover{color:var(--accent);}
-
 .hero-wrap{position:relative;overflow:hidden;}
 .hero-bg{position:absolute;inset:0;background-image:url('https://images.unsplash.com/photo-1518770660439-4636190af475?w=1400&q=80');background-size:cover;background-position:center;filter:brightness(0.18) saturate(0.4);z-index:0;}
 .hero{position:relative;z-index:1;max-width:900px;margin:0 auto;padding:5rem 2rem 4rem;}
@@ -31,22 +28,19 @@ nav{position:sticky;top:0;z-index:100;background:var(--bg);border-bottom:1px sol
 .hero-title em{font-style:italic;color:#5DCAA5;}
 .hero-sub{font-size:14px;color:#B4B2A9;max-width:520px;line-height:1.7;margin-bottom:2.5rem;}
 .cta-row{display:flex;flex-wrap:wrap;gap:10px;}
-.btn-primary{background:var(--accent);color:#fff;padding:10px 22px;border-radius:3px;font-family:var(--mono);font-size:12px;letter-spacing:0.06em;text-transform:uppercase;transition:opacity .2s;}
+.btn-primary{background:var(--accent);color:#fff;padding:10px 22px;border-radius:3px;font-family:var(--mono);font-size:12px;letter-spacing:0.06em;text-transform:uppercase;transition:opacity .2s;cursor:pointer;border:none;}
 .btn-primary:hover{opacity:.85;}
-.btn-outline{border:1px solid #4A4A47;color:#B4B2A9;padding:10px 22px;border-radius:3px;font-family:var(--mono);font-size:12px;letter-spacing:0.06em;text-transform:uppercase;transition:border-color .2s,color .2s;}
+.btn-outline{border:1px solid #4A4A47;color:#B4B2A9;padding:10px 22px;border-radius:3px;font-family:var(--mono);font-size:12px;letter-spacing:0.06em;text-transform:uppercase;transition:border-color .2s,color .2s;cursor:pointer;background:transparent;}
 .btn-outline:hover{border-color:#5DCAA5;color:#5DCAA5;}
-
 .metrics{border-top:1px solid var(--border);border-bottom:1px solid var(--border);background:var(--surface);padding:1.5rem 2rem;}
 .metrics-inner{max-width:900px;margin:0 auto;display:grid;grid-template-columns:repeat(auto-fit,minmax(140px,1fr));gap:1rem;}
 .metric{text-align:center;}
 .metric-num{font-family:var(--serif);font-size:2rem;font-weight:600;color:var(--accent);letter-spacing:-0.04em;}
 .metric-label{font-size:11px;color:var(--ink3);letter-spacing:0.08em;text-transform:uppercase;margin-top:2px;}
-
 section{max-width:900px;margin:0 auto;padding:4rem 2rem;}
 .section-header{display:flex;align-items:center;gap:12px;margin-bottom:2.5rem;}
 .section-num{font-size:11px;color:var(--ink3);letter-spacing:0.1em;}
 .section-title{font-family:var(--serif);font-size:1.6rem;font-weight:300;letter-spacing:-0.02em;}
-
 .skills-layout{display:grid;grid-template-columns:1fr 340px;gap:2rem;align-items:start;}
 .skills-grid{display:grid;grid-template-columns:1fr 1fr;gap:1px;background:var(--border);}
 .skill-card{background:var(--surface);padding:1.2rem;}
@@ -58,9 +52,7 @@ section{max-width:900px;margin:0 auto;padding:4rem 2rem;}
 .skills-image{position:sticky;top:70px;}
 .skills-image img{width:100%;aspect-ratio:3/4;object-fit:cover;display:block;border-radius:3px;}
 .skills-image-caption{font-size:11px;color:var(--ink3);margin-top:8px;letter-spacing:0.04em;}
-
 .img-banner{width:100%;height:220px;object-fit:cover;object-position:center 40%;display:block;filter:brightness(0.85) saturate(0.7);}
-
 .exp-section{background:var(--surface);max-width:100%;padding:4rem 0;}
 .exp-inner{max-width:900px;margin:0 auto;padding:0 2rem;}
 .exp-layout{display:grid;grid-template-columns:260px 1fr;gap:2rem;align-items:start;}
@@ -73,21 +65,17 @@ section{max-width:900px;margin:0 auto;padding:4rem 2rem;}
 .tl-role{font-family:var(--serif);font-size:1rem;font-weight:600;margin-bottom:2px;}
 .tl-company{font-size:12px;color:var(--accent);margin-bottom:.4rem;}
 .tl-desc{font-size:12px;color:var(--ink2);line-height:1.65;}
-
 .cert-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(200px,1fr));gap:12px;}
 .cert-item{border:1px solid var(--border);background:var(--surface);border-radius:3px;padding:1rem 1.2rem;}
 .cert-body{font-size:12px;font-weight:500;color:var(--ink);margin-bottom:3px;}
 .cert-sub{font-size:11px;color:var(--ink3);}
-
 .contact-grid{display:grid;grid-template-columns:1fr 1fr;gap:2rem;align-items:start;}
 .contact-intro{font-family:var(--serif);font-size:1.2rem;font-weight:300;line-height:1.5;color:var(--ink2);}
 .contact-links{display:flex;flex-direction:column;gap:10px;}
 .contact-link{display:flex;align-items:center;gap:10px;font-size:12px;color:var(--ink2);padding:10px 14px;border:1px solid var(--border);border-radius:3px;transition:border-color .2s,color .2s;}
 .contact-link:hover{border-color:var(--accent);color:var(--accent);}
 .contact-link-label{font-size:11px;color:var(--ink3);display:block;}
-
 footer{border-top:1px solid var(--border);background:var(--bg);padding:1.5rem 2rem;text-align:center;font-size:11px;color:var(--ink3);letter-spacing:0.06em;}
-
 @media(max-width:700px){
   .skills-layout{grid-template-columns:1fr;}
   .skills-image{display:none;}
@@ -114,9 +102,9 @@ footer{border-top:1px solid var(--border);background:var(--bg);padding:1.5rem 2r
     <h1 class="hero-title">Cybersecurity industriale<br>e <em>validazione embedded</em><br>al servizio della sicurezza.</h1>
     <p class="hero-sub">Oltre 10 anni di esperienza in software testing, sistemi embedded, IEC 62443, NIS2 e secure development lifecycle. Disponibile per posizioni da dipendente in ambiente industriale o safety-critical.</p>
     <div class="cta-row">
-      <a class="btn-primary" href="mailto:silvia.oggero@email.com">Contattami</a>
-      <a class="btn-outline" href="#">Scarica CV</a>
-      <a class="btn-outline" href="https://linkedin.com/in/silviaoggerotorino" target="_blank">LinkedIn</a>
+      <a class="btn-primary" href="mailto:silvia.oggero@gmail.com">Contattami</a>
+      <button class="btn-outline" onclick="downloadCV()">Scarica CV</button>
+      <a class="btn-outline" href="https://linkedin.com/in/silvia-oggero-18a14752" target="_blank">LinkedIn</a>
     </div>
   </div>
 </div>
@@ -171,7 +159,7 @@ footer{border-top:1px solid var(--border);background:var(--bg);padding:1.5rem 2r
       <div class="skill-card">
         <div class="skill-icon">// 06</div>
         <div class="skill-name">AI & Digital strategy</div>
-        <div class="skill-desc">Formazione executive in AI applicata ai processi industriali e alla governance della sicurezza.</div>
+        <div class="skill-desc">Executive Master in AI e trasformazione digitale. Governance della sicurezza e innovazione.</div>
         <div class="skill-tags"><span class="tag">AI strategy</span><span class="tag">Industry 4.0</span></div>
       </div>
     </div>
@@ -197,16 +185,22 @@ footer{border-top:1px solid var(--border);background:var(--bg);padding:1.5rem 2r
       </div>
       <div class="timeline">
         <div class="tl-item">
-          <div class="tl-date">2018 – presente</div>
-          <div class="tl-role">Senior Cybersecurity & Validation Engineer</div>
+          <div class="tl-date">2014 – presente</div>
+          <div class="tl-role">Test Validation & Cybersecurity Engineer</div>
           <div class="tl-company">ReeR S.p.A. · Torino</div>
-          <div class="tl-desc">Responsabile della validazione firmware per dispositivi di sicurezza funzionale. Definizione e attuazione del processo di cybersecurity secondo IEC 62443. Threat modeling, SDLC sicuro, analisi statica MISRA/CERT, test harness LDRA/TBrun per sistemi safety-critical.</div>
+          <div class="tl-desc">Validazione firmware per dispositivi safety-critical. Cybersecurity analysis secondo IEC 62443. Threat modeling, MISRA/CERT static analysis, test harness LDRA/TBrun. Collaborazione con team di sviluppo, architettura e compliance.</div>
         </div>
         <div class="tl-item">
-          <div class="tl-date">2013 – 2018</div>
-          <div class="tl-role">Software Testing & Validation Engineer</div>
+          <div class="tl-date">2011 – 2014</div>
+          <div class="tl-role">Test Engineer</div>
           <div class="tl-company">Concept Reply · Torino</div>
-          <div class="tl-desc">Testing e validazione software in progetti embedded e sistemi distribuiti. Sviluppo di framework di test automatizzati, analisi di copertura e supporto alla certificazione funzionale.</div>
+          <div class="tl-desc">UAT e Call Performance testing per progetti BlackBerry e Vodafone. Testing automotive per Iveco Group. Quality assurance e validazione certificazione in team internazionali.</div>
+        </div>
+        <div class="tl-item">
+          <div class="tl-date">2008</div>
+          <div class="tl-role">Engineering Intern</div>
+          <div class="tl-company">Telecom Italia Lab · Torino</div>
+          <div class="tl-desc">Simulazione e testing di sistemi IMS e infrastrutture di telecomunicazione.</div>
         </div>
       </div>
     </div>
@@ -214,15 +208,15 @@ footer{border-top:1px solid var(--border);background:var(--bg);padding:1.5rem 2r
     <div style="margin-top:3rem;">
       <div class="section-header">
         <span class="section-num">03</span>
-        <h2 class="section-title">Formazione & certificazioni</h2>
+        <h2 class="section-title">Formazione & lingue</h2>
       </div>
       <div class="cert-grid">
-        <div class="cert-item"><div class="cert-body">Master in AI & Trasformazione Digitale</div><div class="cert-sub">Formazione executive – 2024</div></div>
-        <div class="cert-item"><div class="cert-body">Master in Ingegneria delle Comunicazioni</div><div class="cert-sub">Politecnico di Torino</div></div>
-        <div class="cert-item"><div class="cert-body">Laurea in Ingegneria delle Telecomunicazioni</div><div class="cert-sub">Politecnico di Torino</div></div>
-        <div class="cert-item"><div class="cert-body">IEC 62443 – Industrial Cybersecurity</div><div class="cert-sub">Standard internazionale OT/IT</div></div>
-        <div class="cert-item"><div class="cert-body">MISRA C / CERT C++</div><div class="cert-sub">Static analysis standards</div></div>
-        <div class="cert-item"><div class="cert-body">Lingue: IT · EN · ES · ZH (HSK3)</div><div class="cert-sub">Multilingue, cinese in corso</div></div>
+        <div class="cert-item"><div class="cert-body">Executive Master – AI & Managerial Decision Making</div><div class="cert-sub">Politecnico di Torino – 2026</div></div>
+        <div class="cert-item"><div class="cert-body">Master of Science in Communication Engineering</div><div class="cert-sub">Politecnico di Torino – 108/110</div></div>
+        <div class="cert-item"><div class="cert-body">Laurea in Ingegneria delle Telecomunicazioni</div><div class="cert-sub">Politecnico di Torino – 2008</div></div>
+        <div class="cert-item"><div class="cert-body">IEC 62443 / NIS2 / MISRA / CERT</div><div class="cert-sub">Competenze applicate in contesti industriali</div></div>
+        <div class="cert-item"><div class="cert-body">Italiano · Inglese C1/C2 · Spagnolo C1</div><div class="cert-sub">Lingue fluenti</div></div>
+        <div class="cert-item"><div class="cert-body">Cinese HSK2 → HSK3 in corso · Francese A1</div><div class="cert-sub">Lingue in studio</div></div>
       </div>
     </div>
   </div>
@@ -236,15 +230,15 @@ footer{border-top:1px solid var(--border);background:var(--bg);padding:1.5rem 2r
   <div class="contact-grid">
     <p class="contact-intro">Disponibile per opportunità da dipendente in ambito cybersecurity industriale, sistemi embedded safety-critical o ruoli di Validation Engineering senior.</p>
     <div class="contact-links">
-      <a class="contact-link" href="mailto:silvia.oggero@email.com">
+      <a class="contact-link" href="mailto:silvia.oggero@gmail.com">
         <span>✉</span>
-        <span><span class="contact-link-label">Email</span>silvia.oggero@email.com</span>
+        <span><span class="contact-link-label">Email</span>silvia.oggero@gmail.com</span>
       </a>
-      <a class="contact-link" href="https://linkedin.com/in/silviaoggerotorino" target="_blank">
+      <a class="contact-link" href="https://linkedin.com/in/silvia-oggero-18a14752" target="_blank">
         <span>in</span>
-        <span><span class="contact-link-label">LinkedIn</span>linkedin.com/in/silviaoggerotorino</span>
+        <span><span class="contact-link-label">LinkedIn</span>linkedin.com/in/silvia-oggero-18a14752</span>
       </a>
-      <a class="contact-link" href="#">
+      <a class="contact-link" href="#" onclick="downloadCV(); return false;">
         <span>↓</span>
         <span><span class="contact-link-label">Curriculum Vitae</span>Scarica PDF – aggiornato 2026</span>
       </a>
@@ -253,6 +247,22 @@ footer{border-top:1px solid var(--border);background:var(--bg);padding:1.5rem 2r
 </section>
 
 <footer>© 2026 Silvia Oggero · Torino, Italia · Senior Cybersecurity & Validation Engineer</footer>
+
+<script>
+const cvBase64 = "JVBERi0xLjQKJZOMi54gUmVwb3J0TGFiIEdlbmVyYXRlZCBQREYgZG9jdW1lbnQgaHR0cDovL3d3dy5yZXBvcnRsYWIuY29tCjEgMCBvYmoKPDwKL0YxIDIgMCBSIC9GMiAzIDAgUiAvRjMgNCAwIFIgL0Y0IDUgMCBSCj4+CmVuZG9iagoyIDAgb2JqCjw8Ci9CYXNlRm9udCAvSGVsdmV0aWNhIC9FbmNvZGluZyAvV2luQW5zaUVuY29kaW5nIC9OYW1lIC9GMSAvU3VidHlwZSAvVHlwZTEgL1R5cGUgL0ZvbnQKPj4KZW5kb2JqCjMgMCBvYmoKPDwKL0Jhc2VGb250IC9IZWx2ZXRpY2EtQm9sZCAvRW5jb2RpbmcgL1dpbkFuc2lFbmNvZGluZyAvTmFtZSAvRjIgL1N1YnR5cGUgL1R5cGUxIC9UeXBlIC9Gb250Cj4+CmVuZG9iago0IDAgb2JqCjw8Ci9CYXNlRm9udCAvWmFwZkRpbmdiYXRzIC9OYW1lIC9GMyAvU3VidHlwZSAvVHlwZTEgL1R5cGUgL0ZvbnQKPj4KZW5kb2JqCjUgMCBvYmoKPDwKL0Jhc2VGb250IC9IZWx2ZXRpY2EtT2JsaXF1ZSAvRW5jb2RpbmcgL1dpbkFuc2lFbmNvZGluZyAvTmFtZSAvRjQgL1N1YnR5cGUgL1R5cGUxIC9UeXBlIC9Gb250Cj4+CmVuZG9iago2IDAgb2JqCjw8Ci9Db250ZW50cyAxMSAwIFIgL01lZGlhQm94IFsgMCAwIDU5NS4yNzU2IDg0MS44ODk4IF0gL1BhcmVudCAxMCAwIFIgL1Jlc291cmNlcyA8PAovRm9udCAxIDAgUiAvUHJvY1NldCBbIC9QREYgL1RleHQgL0ltYWdlQiAvSW1hZ2VDIC9JbWFnZUkgXQo+PiAvUm90YXRlIDAgL1RyYW5zIDw8Cgo+PiAKICAvVHlwZSAvUGFnZQo+PgplbmRvYmoKNyAwIG9iago8PAovQ29udGVudHMgMTIgMCBSIC9NZWRpYUJveCBbIDAgMCA1OTUuMjc1NiA4NDEuODg5OCBdIC9QYXJlbnQgMTAgMCBSIC9SZXNvdXJjZXMgPDwKL0ZvbnQgMSAwIFIgL1Byb2NTZXQgWyAvUERGIC9UZXh0IC9JbWFnZUIgL0ltYWdlQyAvSW1hZ2VJIF0KPj4gL1JvdGF0ZSAwIC9UcmFucyA8PAoKPj4gCiAgL1R5cGUgL1BhZ2UKPj4KZW5kb2JqCjggMCBvYmoKPDwKL1BhZ2VNb2RlIC9Vc2VOb25lIC9QYWdlcyAxMCAwIFIgL1R5cGUgL0NhdGFsb2cKPj4KZW5kb2JqCjkgMCBvYmoKPDwKL0F1dGhvciAoXChhbm9ueW1vdXNcKSkgL0NyZWF0aW9uRGF0ZSAoRDoyMDI2MDUxOTA5NTQ0OCswMCcwMCcpIC9DcmVhdG9yIChcKHVuc3BlY2lmaWVkXCkpIC9LZXl3b3JkcyAoKSAvTW9kRGF0ZSAoRDoyMDI2MDUxOTA5NTQ0OCswMCcwMCcpIC9Qcm9kdWNlciAoUmVwb3J0TGFiIFBERiBMaWJyYXJ5IC0gd3d3LnJlcG9ydGxhYi5jb20pIAogIC9TdWJqZWN0IChcKHVuc3BlY2lmaWVkXCkpIC9UaXRsZSAoXChhbm9ueW1vdXNcKSkgL1RyYXBwZWQgL0ZhbHNlCj4+CmVuZG9iagoxMCAwIG9iago8PAovQ291bnQgMiAvS2lkcyBbIDYgMCBSIDcgMCBSIF0gL1R5cGUgL1BhZ2VzCj4+CmVuZG9iagoxMSAwIG9iago8PAovRmlsdGVyIFsgL0FTQ0lJODVEZWNvZGUgL0ZsYXRlRGVjb2RlIF0gL0xlbmd0aCAxOTE5Cj4+CnN0cmVhbQpHYXUwRGdOKSI9JjpPOlNGT2FFZ2E5S2craDpcXFBLT2ljQUc4Jj9jYVkwcTpuMEI0ZlE6PyVyZzVrLV8pMD5tSE40bTVxXForLFdEbDlLUCFdRTV1SVNNXExwRyNwIyxYPD8qKEkxKytLRDYpIW5fKV85Zmd0dDVBTk9lZjVUJzleKXFrR2Bfb2lnOExgWyZALChVYigqYSVdOydMOG9jNl8xJCg2JXAxQzM4ZiNnX01Kc2xEb1ZRODlBbzojT3IhJS9gODteOjxQYS4jYSQrMExkIjEnJTpJNTRNWywnRkxVMG9OYmkiNlRRam0jJ1hOP1pGOWQ1cEtOWlB0cnRkbEcnbGRKQVM1LHUoRmxhWWYlSy0tSV9oaSpWazE3aEBZT2tNbEJSLThQbTZBa0okITlKIzZsSm88aiJIY2o7V1VVZT1EMGVIdSg4JD50M28mVlU/ZmlBZGlnOis0TWkqJ1BLbjZIPTpXIkhoVERyUFJuXixOODpvU2VIUyhOLzY4K3UkNktTUDNbW2IiZkdKRTpkLnEmVS5IYFFZVE1BLkhqJ1ZkRTI4Pk9VNUI9aCEoYiskUzNpXG4wUWRdPm1aaERRMTRaKzksUC05T21OQm8hdWolMl5CaiVvM3JtbiowcStkVHE+OWdpJjNYN2QtLU8nUHEnPnRMXDoySj1BY0RxVzA4c10wYGpLayMtLF4xPmtEOWFmJS8+XEpnQ2VfQVk0Ym1zSjMpSCUrbjEkXkoiQmRUKSREaXEsQkEzQyQsNjhXJTFmPi5jPnAkMSIidGphaiRZTUtpJVI2a2hYZT0kQmE9RExKbjhrZjghSjE7XC91OjwldUJIVFQqcW9zQV1bPzNFKTdWblZiXjczcFVVaVBfMVw5WitiJWxXQ20yP0dOPTFVP0B0aCJcSCZDRUQxJj5qSUdbVShYOG0tc3QjdW9fLD1cNDIrNWpSaTlZIk0/bVpCJkE8LyFPUU5EXTIkdDxTRTNSN3JkIWFiLj46QS1fL0VwTSVSI045JkxOVjJUYT5RPU9YJm81cUVHRzJISmQvMWAtJGBeTjNvIl8sQz48UWpBT2IvbS9KZzswND9HVkJjTyFmQjRSaVo0dCZYJ2sxTEdaRiIkNVNUMFwoK15XVkBxZiJFXDludD1RQktWOk9FOzxwJyI9WEksLmpldUZwMkFnUFJbYnNDXGtZN2xRKyRvayxcMUBaXGI4QUU7OS5cITZEJ0xpQVFdYFMzYykzMzxEZkRBXi9qNC5TKyglMmNvSW4sbUVUW0Ymc1ojIT5RWmEmNzQjczRkOEdPUUMzYl8oMGBIWGM4VG1uZy5gJkosKG1fTllkOFEvZDpkYElzSnUpKiwsYVhhOlthYCxwKGElQ25APU5xSWJwdE5FUkU9NHIsdHFYKzZtR1xZVVExKypfZztMNl5gT0h1Q2pqZDgkKkglV0c+NXFuJGAxZkpyQjIiRFFsRzxbZ2JSSyNcTlJdc1VHdDA+JihlS2wrJUdfVWlSOUkzRGlhQk9acXAuPSNOS14qTXBIMDlnXGtlZmUrYUJqTC1lclwkNkEqPTJgU01GKks4VWtJNjNkJFIoO1JYVCQrXypmT2BsQE5YMTRNU05bPFNvVnM0MXFsTW9KWWdNJWlPK19EITFQc3A5LkhcWkloW1dITkdtRUBlZF1YMUhcMzxrR3E+XU1MMlk9YVxtYzBHW1lpPW1pXDVANTkrRVQ+RVY+b041O2xnPGBEW19RcignQltrb1IwQCMuVFRBN0ouZUhdSltpNUJTTkkvdU43Uz9QLVJTX0A6UkIxX0lmNiVRM1BzMWhgLU8xL1wjLzBiOk5kXzReU3E/c0tJRHJBSEVMKiIwMThzNzA8Li4iQW5XNGxjQkIyRUJScUJwNihIQzRuKkxEWlprNFEjKi9ZSk5HLCIoPCdzM2xGPzFCVUZVZW0wbE0mXzptJWJIXlNeaVZdMV9UWjFkNmBcbyZDOTlZLGA6JVRUYjVAMFk/N1ZoPEshM0ZQck5pKy0qI2pPK0A2WVI4NnJsTCc8OC4iVVdUcVg1WkhYKWVCP0dDWmZALDJUPTRDL0U8QFVTcicoclc1Pjxgb2EyLkxqako1SlBiNVE3XUZDWEBeNzVkTExYa2FfJi4vPTpeUU9IJUx1ckEkbGlvcXA2MWdJYzVkQTojZ1UzXiU5YS8pSyhucD40OllBaT5HUjJqZ0VyVmViJUlDMyxzckgkdUVRanEpNW9LVSRZP01XZ2dzRnQlKSVtJlctWjYvQShkOEIpXllJVzIvQihedF9SKkg9PyxecEB1ZSs3L3RmZTFNPDhcZlVabzMmR2psS29lIzw+dEkuUzxaO2dlTz0mXmUrR0w4XSdpLEVNKG41JV1TQVN1Q2tdUCUkWEtCdEc0QSE8JlZhW2xBWjx0UjU9ZkJiVVI8SkQpO1k7Zko3MkxwUltjWj8qUktQQmdcPSwlLmVfKTpLPFY5cEkpKVtoWUFpbmNePj4qZSllTUY7JmFGckQxKVpvRTM4aVx1RFZsPjJCXD8yb1cuTCsydCIncVMlP05+PmVuZHN0cmVhbQplbmRvYmoKMTIgMCBvYmoKPDwKL0ZpbHRlciBbIC9BU0NJSTg1RGVjb2RlIC9GbGF0ZURlY29kZSBdIC9MZW5ndGggMTMxNwo+PgpzdHJlYW0KR2F0bTo5NjhpSSUpMlU/aTNfUDMzL1U2aWgtNj1CXSYiYnE4WmNKVU4nbzBpLHE6ND9bLDBJWF5FPWknWj43TEtEIV5cRWAhNmtPISErNSNqLiFSSV1FXC5tXzxFNkg2NlRQNiQsJG5VLyVFWUloXjUtaDdaJDxXK0p0NnJNM24hZE1MKEtAXWA6WS9ecGFWUi1HczlOZ2whO1VKT0opZ2twNk1tZ1JUKChLVFthVGopPTkzQmFDOzlWRDUiXlZBWlJeaFVKYmBYOmJyRWZcUSJYNGBoMi5sO1JIb1o7cThsRi9aSks1a1lbUmlEN2dTLzs8LilAM21KI2lDXWdfNzk9dURCMyI+M3FMcDEkLzRKQXFiX1NeaVA2RGYrTkFdK2I/dWBqX14iLnFpXGVkQS5sVy9udS47MDk1VjNqMEBidFk3S0ciODY7LGtsSUhJclJMa25gVF4mXihUcjVHdDpKYCJAWCUpK1ljKC4+JGA1RVRvMz5vKTRrLktEPEpxSU5kXjV0PzJXVytDVyRtQUNWMmw1bjpmOi1jQkpua09VRzQjJjYrb0NcXWQpM0wrKC85JGs+by9pNDc0I21WRE0yUkdKbVNYaVQ/VVBxWTxqZWYtIj9BLj9QZ2ttZ3RcRCxXMSRIZUc/ZHJJXF1CZ2kzMEEzQkgoUkpBdXFzUXNNW3JXcmAvWT5GWkI3WTlHXWtaP15KVGNIcC9QMFxhQWstTT5NYm4rUTNSTkhxQllAK15uK2phLSdQVUUyJXRNOGxwZDA3JE8uTWdAI14nOFxrOl5kb0drcjFaLmghJz4wL19VbGAyTnVocDExKURRRDZHaU9YYV5PZ0xdZiZuTCUpYkBBInNLLGpPLD1cTTRcRi4kZE5iQXEuWi9YLThgbj5RN0RmLzFfXEBBcmBkX0NsNGcsY1hHdDBfPUVOLUdtLyxRXyhdRmVZJWwkQVlORSkmcFRyLiJEI01UTjBDLFgsSlE7T2ArKytGdFktP1pyTlhITUYuZjIiSl4tV0JIcmJjWEhKVk5TOFU+UmU6N0smUnNMWkNKUTE5QGohJlxKaTdqNkVjUWkvSmBWTTBAZzJrTVd0RicwZCo5LF5xL19cVGM6Wl1cakgzQEdwdHM6MmE4UDM9JyU0Wk87XyJMME8nIUZca04pOSoqXG5aMDRfamY2akRncHNyMSJiNDhFVXI1XWUrTk0tbS5Bcy9qSWFkNTNLJUc9R1giODxtLnBSZ1cjLGZpNlskaERyOzdubm1gS2dKQnU3N2dLYVtiNTdcRFxuaEspL20vREo1TGEpVVhBN2tjcjJzbW8mViVgWjdKXFNWW08rOElyIUNPZWRbUkBYXExwNGFULGUyUDZpYT09UWVPQyt1WWxJaUUhQnNMLiFObkhhYGg0UiJcaTIvdW1iSnFhLlkwdCQ5aVgyKCQ9VixQUmdGZzVIRyRRMixULUR0WVZQXDlLJmAkS2ViU0lYVyE7aWhcQ2x1OjAlRTkoUk4pI1NiV1lHO08nJmJKPm5HJUMsQkVdcydgdHBuJnVdL0kyTCFYLltbZnE9NFJoLmlUdWcpS1IndDZdN2cqNEQ5bCM6Mj5hPiFoXmhTP1BTI1JuQGYvJ2Q0Wm9DXDFhWENOUkVNW1paO1NxP29FT1AoI01uRzAzUC10ZnAuaHVcaE5iOFk8YCxfQlNjbXJLLUhTayhhPCkuXz4tLWM7XlEuPEJPPFRvTS9IRnMvK1dfMl9ULTg+NismYXBWXX4+ZW5kc3RyZWFtCmVuZG9iagp4cmVmCjAgMTMKMDAwMDAwMDAwMCA2NTUzNSBmIAowMDAwMDAwMDczIDAwMDAwIG4gCjAwMDAwMDAxMzQgMDAwMDAgbiAKMDAwMDAwMDI0MSAwMDAwMCBuIAowMDAwMDAwMzUzIDAwMDAwIG4gCjAwMDAwMDA0MzYgMDAwMDAgbiAKMDAwMDAwMDU1MSAwMDAwMCBuIAowMDAwMDAwNzU2IDAwMDAwIG4gCjAwMDAwMDA5NjEgMDAwMDAgbiAKMDAwMDAwMTAzMCAwMDAwMCBuIAowMDAwMDAxMzEzIDAwMDAwIG4gCjAwMDAwMDEzNzkgMDAwMDAgbiAKMDAwMDAwMzM5MCAwMDAwMCBuIAp0cmFpbGVyCjw8Ci9JRCAKWzxjYzAwM2JlYmYyYTc4N2E0MjA0YTUyNDIwZTNmOGUxNT48Y2MwMDNiZWJmMmE3ODdhNDIwNGE1MjQyMGUzZjhlMTU+XQolIFJlcG9ydExhYiBnZW5lcmF0ZWQgUERGIGRvY3VtZW50IC0tIGRpZ2VzdCAoaHR0cDovL3d3dy5yZXBvcnRsYWIuY29tKQoKL0luZm8gOSAwIFIKL1Jvb3QgOCAwIFIKL1NpemUgMTMKPj4Kc3RhcnR4cmVmCjQ3OTkKJSVFT0YK";
+function downloadCV() {
+  const byteChars = atob(cvBase64);
+  const byteNums = new Array(byteChars.length);
+  for (let i = 0; i < byteChars.length; i++) byteNums[i] = byteChars.charCodeAt(i);
+  const blob = new Blob([new Uint8Array(byteNums)], {type: 'application/pdf'});
+  const url = URL.createObjectURL(blob);
+  const a = document.createElement('a');
+  a.href = url;
+  a.download = 'Silvia_Oggero_CV_2026.pdf';
+  a.click();
+  URL.revokeObjectURL(url);
+}
+</script>
 
 </body>
 </html>
